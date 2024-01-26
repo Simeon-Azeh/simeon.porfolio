@@ -1149,7 +1149,7 @@ footer a {
 }
 .nav-close-btn {
     position: absolute;
-    background: url(../Images/close-circle-svgrepo-com.svg)no-repeat;
+    background: url(close-circle-svgrepo-com.svg)no-repeat;
     filter: var(--color-filter);
     background-size: 25px;
     background-position: center;
@@ -1161,7 +1161,7 @@ footer a {
     cursor: pointer;
 }
     .nav-menu-btn {
-        background: url(../Images/burger-menu-right-svgrepo-com\ \(2\).svg)no-repeat;
+        background: url(burger-menu-right-svgrepo-com\ \(2\).svg)no-repeat;
         filter: var(--color-filter);
         background-size: 30px;
         background-position: center;
