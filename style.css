@@ -640,19 +640,21 @@ font-weight: 500;
     box-shadow: var(--box-shadow);
 }
 .service-card > i {
-    color: var(--second-color);
-    font-size: 2.5em;
-    margin-bottom: 30px;
-    background-color: var(--second-color) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--second-color);
     color: #fff;
-    padding: 8px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
-   
-}
-.service-card h3 {
     font-size: 1.5em;
+    margin-bottom: 30px;
+    padding: 8px;
+}
+
+.service-card h3 {
+    font-size: 1em;
     font-weight: 700;
     line-height: 30px;
     margin-bottom: 20px
@@ -851,6 +853,51 @@ font-weight: 500;
     margin: 20px 0;
     height: auto;
 }
+.portfolio-model-body p {
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--third-color);
+    line-height: 2;
+}
+.portfolio-model-body .modal-heading {
+    color: var(--first-color);
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.portfolio-model-body a {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 40px;
+    color: var(--second-color);
+    transition: .3s ease;
+}
+.portfolio-model-body a:hover {
+    color: var(--first-color);
+}
+
+.portfolio-model-body ul li {
+    margin-top: 15px;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: var(--third-color);
+    margin-bottom: 20px;
+}
+
+.portfolio-model-body ul li i {
+    color: var(--second-color);
+    margin-right: 10px;
+}
+.portfolio-model-body p {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: var(--third-color);
+}
+.portfolio-model-body a i {
+   font-size: 12px;
+   margin-left: 3px;
+}
+
 
 
 /* Get in touch */
