@@ -1462,6 +1462,9 @@ footer a {
         width: 65%;
         height: 65%;
     }
+    .home .home-container .home-img img {
+        object-fit: contain;
+    }
    
     .home .scroll-down {
         margin-left: 20px;
