@@ -225,13 +225,12 @@ header.sticky .nav-bar {
     align-items: center;
     width: 100%;
 }
-.home .home-container img {
-    width: 100%;
-    height: 460px;
-   
-}
+
 .home-container .home-img {
     position: relative;
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
    
 }
 .home-container .home-img img {
@@ -239,9 +238,10 @@ header.sticky .nav-bar {
     margin-top: 60px;
 }
 .home-container .home-img img {
-    max-width: 100%;
-    height: auto;
-    max-height: 450px; /* Set a maximum height to maintain the aspect ratio */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
 }
 
 
@@ -1253,12 +1253,17 @@ footer a {
     .home .home-container .info {
         font-size: 0.6rem;
     }
+    .home .home-container .home-img {
+        width: 60%;
+       
+    }
    /* Add this style to the existing CSS */
 
    .home .home-container .media-icons {
-    margin-top: -20px;
+    
     display: flex;
     flex-direction: row;
+    margin-top: 40px;
     
 }
 
@@ -1457,10 +1462,10 @@ footer a {
         max-width: 100%;
         box-sizing: border-box; /* Include padding and border in the total width */
     }
-    .home-container .home-img img {
-        width: 100%;
-        height: 306px;
+    .home .home-container .home-img {
+        width: 65%;
     }
+   
     .home .scroll-down {
         margin-left: 20px;
         margin-top: 60px;
