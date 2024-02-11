@@ -8,7 +8,7 @@
 
     --hover-color: #32e5f2;
 
-    --body-bg-color: #fefefe;
+    --body-bg-color: #f9feff;
     --card-bg-color: #fff;
     --modal-bg-color: #fff;
     --bg-transparent-color: rgba(0, 0 ,0, 0.1);
@@ -1158,7 +1158,50 @@ footer a {
    color: #eae4e4;
 }
 
+.thankyou_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
 
+}
+.thankyou_container i {
+    font-size: 5em;
+    color: var(--second-color);
+    margin-bottom: 10px;
+
+}
+.thankyou_container h1 {
+    font-size: 2.5em;
+   
+}
+.thankyou_container h2 {
+    font-size: 1em;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.thankyou_container .ri-home-6-line{
+    font-size: 1em;
+    font-weight: 600;
+}
+.thankyou_container a {
+    text-decoration: none;
+    color: var(--second-color);
+    border: 1px solid var(--second-color);
+    padding: 10px 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 500;
+    transition: .3s ease;
+}
+.thankyou_container a:hover {
+    background: var(--second-color);
+    color: #fff;
+}
+.thankyou_container a:hover i {
+    color: #fff;
+}
 /* Media queries max-width ipads */
 @media only screen and (max-width: 1070px) {
    

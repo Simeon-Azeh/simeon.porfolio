@@ -529,7 +529,7 @@
                             <h2>Next Project</h2>
                         </div>
                         <div class="contact-btn">
-                            <a href="#" class="btn">Get In Touch <i class="ri-send-plane-fill"></i></a>
+                            <a href="#contact" class="btn">Get In Touch <i class="ri-send-plane-fill"></i></a>
                         </div>
                     </div>
                    
@@ -617,16 +617,23 @@
                 </div>
                 <div class="contact-right">
                     <p>Want to discuss a project?<br> <span>Reach Out</span></p>
-                    <form action="" class="contact-form">
+                    <form action="https://api.web3forms.com/submit" method="post" class="contact-form">
+                        <!-- Custom URL -->
+<input type="hidden" name="redirect" value="https://simeonazeh.com/success.html">
+                        <input type="hidden" name="access_key" value="9b6be430-495b-44f2-b2db-48d12ed12c6f">
                         <div class="first-row">
-                            <input type="text" placeholder="Name">
+                            <label for="Name"></label>
+                            <input type="text" name="Name" id="Name" placeholder="Name">
                         </div>
                         <div class="second-row">
-                            <input type="email" placeholder="Email">
-                            <input type="text" placeholder="Subject">
+                            <label for="Email"></label>
+                            <input type="email" name="Email" id="Email" placeholder="Email">
+                            <label for="Subject"></label>
+                            <input type="text" name="Subject" id="Subject" placeholder="Subject">
                         </div>
                         <div class="third-row">
-                            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                            <label for="Message"></label>
+                            <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Message"></textarea>
                         </div>
                         <button class="btn" type="submit" >Send Message <i class="fa-solid fa-paper-plane"></i></button>
                         
@@ -678,5 +685,6 @@
 
     <script src="swiper-bundle.min.js"></script>
     <script src="main.js"></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
 </body>
 </html>

@@ -68,7 +68,8 @@ var swiper = new Swiper(".client-swiper", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-  });//light and dark theme
+  });
+  //light and dark theme
   const themeBtn = document.querySelector(".theme-btn");
   
   themeBtn.addEventListener("click", () => {
