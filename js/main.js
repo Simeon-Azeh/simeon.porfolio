@@ -169,4 +169,6 @@ const revealOptions = {
   ScrollReveal().reveal('.skills-description .service-description, .contact-card, .client-swiper, contact-left h2', { delay: 700, origin: 'left' });
   ScrollReveal().reveal('.experience-card, .service-card, .education, .portfolio .img-card', { delay: 800, origin: 'bottom' });
   ScrollReveal().reveal('.footer .group', { ...revealOptions, origin: 'top' });
+
+
   

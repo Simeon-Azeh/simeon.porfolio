@@ -8,12 +8,18 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css" integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-      <script src="https://unpkg.com/scrollreveal"></script>
+    
 </head>
 <body>
+ <div class="loader_container"  id="loader">
+    <div class="loader"></div>
+    <h5 class="loading-text">Loading, please wait...</h5>
+ </div>   
 
-    <!--Scroll to top-->
-    <div class="scrollToTop-btn flex-center">
+
+  <div class="main_content">
+      <!--Scroll to top-->
+      <div class="scrollToTop-btn flex-center">
         <i class="ri-arrow-up-s-line"></i>
     </div>
 
@@ -47,22 +53,24 @@
     <section class="home flex-center" id="home">
         <div class="home-container">
             <div class="media-icons">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/kongnyuy.simeon.3" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/heis_kay_c?igsh=MXF2NDA2YzJtODhxOQ==" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/simeonazeh?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             </div>
             <div class="info">
                 <p class="greetings">Hello, I am</p>
                 <h2>Simeon Azeh</h2>
                 <h3>Front-end Developer</h3>
-                <p>I build stunning websites, and pay attention to details. I also double act as a brand manager</p>
-                <a href="" class="btn">Contact Me <i class="ri-arrow-drop-right-line"></i></a>
+                <p>I build stunning websites, and pay attention to details. I also double act as a brand manager, I'm here to help!</p>
+                <a href="hire.html" class="btn">Hire Me <i class="ri-arrow-drop-right-line"></i></a>
             </div>
             <div class="home-img">
                 <img src="Images/h.png" alt="">
             </div>
+           
         </div>
         <a href="#about" class="scroll-down">Scroll Down <i class="fa-solid fa-arrow-down"></i></a>
+        
     </section>
 
     <section  class="about section" id="about">
@@ -107,22 +115,27 @@
                             </div>
                      
                         </div>
-                    <a href="#" class="btn">Download CV <i class="fa-solid fa-download"></i></a>
+                    <a href="assets/Simeon Azeh Kongnyuy resume_20240521_101532_0000.pdf" class="btn" download>Download CV <i class="fa-solid fa-download"></i></a>
                 </div>
             </div>
         </div>
+        <div class="container_res">
+            <div class="loader_res"></div>
+            <div class="loader_res"></div>
+            <div class="loader_res"></div>
+        </div>
+        
     </section>
 
     <!--Skills section-->
-    <section style="max-width: 1100px;" class="skills section" id="skills">
+    <section style="max-width: 1264px;" class="skills section" id="skills">
         <div class="container flex-center" >
             <h1 class="section-title-01">Skills</h1>
             <h2 class="section-title-02">Skills</h2>
             <div class="content">
                 <div class="skills-description">
-                    <h3>Education & Skills</h3>
-                    <p>Current student at the African Leadership University, described by <span class="cnn">CNN</span> as the <i>Havard of Africa</i> persuing
-                    a 4 year Undergraduate degree in <span class="so-h">Software Engineering</span> and specialty in <span class="job-des">Full stack Web development</span></p>
+                    <h3>Education, Skills & Awards</h3>
+              
                 </div>
                 <div class="skills-info education-all">
                     <div class="education">
@@ -133,6 +146,18 @@
                                 <p><span>BSc in Software Engineering</span> - African Leadership University, Kigali, RW</p>
                             </li>
                         </ul>
+                        <div class="cookie-card">
+                            <span class="title"> <i class="ri-information-2-line"></i> Info</span>
+                            <p class="description">I'm in my learning process and constantly studying and practicing to improve m skills, especially with frameworks, to make me more efficient. <a href="#">Learn more</a>. </p>
+                            <div class="actions">
+                                <button class="pref">
+                                  Support my journey
+                                </button>
+                                <button class="accept">
+                                   Feedback
+                                </button>
+                            </div>
+                        </div>
                     </div>
                     <div class="education">
                         <h4><label>Skills</label></h4>
@@ -140,7 +165,7 @@
                             <li class="bar">
                                 <div class="info">
                                     <span>HTML</span>
-                                    <span>95%</span>
+                                    <span>99%</span>
                                 </div>
                                 <div class="line html"></div>
                             </li>
@@ -180,22 +205,49 @@
                                 </div>
                                 <div class="line g-design"></div>
                             </li>
+                            <li class="bar">
+                                <div class="info">
+                                    <span>Reactjs</span>
+                                    <span>20%</span>
+                                </div>
+                                <div class="line React-js"></div>
+                            </li>
+                            <li class="bar">
+                                <div class="info">
+                                    <span>Python</span>
+                                    <span>30%</span>
+                                </div>
+                                <div class="line python"></div>
+                            </li>
                         </ul>
                     </div>
                     <div class="education">
                         <h4><label>Awards</label></h4>
                         <ul class="edu-list">
                             <li class="item">
-                                <span class="year">2021-PRESENT</span>
-                                <p><span>Brand manager | Tech Support</span> - Urega Foundation, Netherlands</p>
+                                <span class="year">2021</span>
+                                <p><span>Young Emerging Entrepreneur</span> - Tantoh Group, Istanbul - Turkiye</p>
+                                <a href="#modal-1" class="mod_but">View Award <i class="ri-arrow-right-s-line"></i></a>
                             </li>
                             <li class="item">
-                                <span class="year">2021-PRESENT</span>
-                                <p><span>Brand manager | Graphic Designer</span> - Open Dreams, Cameroon</p>
+                                <span class="year">2023</span>
+                                <p><span>Introduction to Frontend Development</span> - Meta, Coursera</p>
+                                <a href="#modal-2" class="mod_but">View Award <i class="ri-arrow-right-s-line"></i></a>
                             </li>
                             <li class="item">
-                                <span class="year">2023-PRESENT</span>
-                                <p><span>Founder | Frontend Developer</span> - Sidec, Rwanda</p>
+                                <span class="year">2023</span>
+                                <p><span>HTML & css in depth</span> - Meta, Coursera</p>
+                                <a href="#modal-3" class="mod_but">View Award <i class="ri-arrow-right-s-line"></i></a>
+                            </li>
+                            <li class="item">
+                                <span class="year">2022</span>
+                                <p><span>Blood typing campaign</span> - BUBAMSA, Buea</p>
+                                <a href="#modal-4" class="mod_but">View Award <i class="ri-arrow-right-s-line"></i></a>
+                            </li>
+                            <li class="item">
+                                <span class="year">2022</span>
+                                <p><span>Presenter Award</span> - Collegey teen festival, USA | INDIA</p>
+                                <a href="#modal-5" class="mod_but">View Award <i class="ri-arrow-right-s-line"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -222,7 +274,7 @@
                         </div>
                         <div class="hr"></div>
                         <h4><label>SIDEC, Rwanda</label></h4>
-                        <p>I worked on the frontend of Sidec's Education webapp.</p>
+                        <p> Sidec is an elearning platform that provides resources and practice quizzes to help high school students prepare better for exams.</p>
                     </div>
                     <div class="experience-card">
                         <div class="upper">
@@ -234,9 +286,74 @@
                         <h4><label>UNION BANK, Nigeria</label></h4>
                         <p>Worked on creating stunning design which built this brand's presence and brought in more customers</p>
                     </div>
+                    <div class="experience-card">
+                        <div class="upper">
+                            <h3>Frontend developer</h3>
+                            <h5>Part time | hybrid</h5>
+                            <span>2024 - PRESENT</span>
+                        </div>
+                        <div class="hr"></div>
+                        <h4><label>CodeXtreme, Rwanda</label></h4>
+                        <p>Working with other developers to realize the vision of codeXtreme to connect mentors to learners across Africa in various fields.</p>
+                    </div>
+                    <div class="experience-card">
+                        <div class="upper">
+                            <h3>Frontend developer</h3>
+                            <h5>Part time | hybrid</h5>
+                            <span>2024 - PRESENT</span>
+                        </div>
+                        <div class="hr"></div>
+                        <h4><label>Multiprime, Cameroon</label></h4>
+                        <p>Multiprime is an entertainment company that provides seamless resources for artist, models etc. I worked on their user friendly website. </p>
+                    </div>
                 </div>
             </div>
         </div>
+        <div id="modal-1" class="modalDialog">
+            <div class="mod-body">
+               
+                    <a href="#close_mod" title="Close" class="close_mod">Close</a>
+                   <div class="cert_img">
+                    <img src="assets/certificate_1.jpg" alt="Tantoh award certificate">
+                   </div>
+                    </div>
+            </div>
+            <div id="modal-2" class="modalDialog">
+                <div class="mod-body">
+                   
+                        <a href="#close_mod" title="Close" class="close_mod">Close</a>
+                       <div class="cert_img">
+                        <img src="Images/intro fed_page-0001.jpg" alt="meta certificate">
+                       </div>
+                        </div>
+                </div>
+                <div id="modal-3" class="modalDialog">
+                    <div class="mod-body">
+                       
+                            <a href="#close_mod" title="Close" class="close_mod">Close</a>
+                           <div class="cert_img">
+                            <img src="assets/Coursera YUSFU5DEBG6J_page-0001 (1).jpg" alt="HTML, css indepth certificate">
+                           </div>
+                            </div>
+                    </div>
+                    <div id="modal-4" class="modalDialog">
+                        <div class="mod-body">
+                           
+                                <a href="#close_mod" title="Close" class="close_mod">Close</a>
+                               <div class="cert_img">
+                                <img src="assets/blood typing campaign award_01.jpg" alt="BLOOD TYPING certificate">
+                               </div>
+                                </div>
+                        </div>
+                        <div id="modal-5" class="modalDialog">
+                            <div class="mod-body">
+                               
+                                    <a href="#close_mod" title="Close" class="close_mod">Close</a>
+                                   <div class="cert_img">
+                                    <img src="assets/collegey_01.jpg" alt="BLOOD TYPING certificate">
+                                   </div>
+                                    </div>
+                            </div>
     </section>
 
     <!--Services-->
@@ -300,7 +417,7 @@
                     <li class="service-container">
                         <div class="service-card">
                             <i class="fa-solid fa-book"></i>
-                            <h3>Content Writing</h3>
+                            <h3>Content Writing & marketing</h3>
                             <div class="learn-more-btn">Learn More <i class="fa-solid fa-arrow-right"></i></div>
                         </div>
                         <div class="service-modal flex-center">
@@ -325,23 +442,22 @@
                     <li class="service-container">
                         <div class="service-card">
                             <i class="fa-solid fa-terminal"></i>
-                            <h3>Content Writing</h3>
+                            <h3>Tutoring & Mentorship</h3>
                             <div class="learn-more-btn">Learn More <i class="fa-solid fa-arrow-right"></i></div>
                         </div>
                         <div class="service-modal flex-center">
                             <div class="service-modal-body">
                                 <i class="ri-close-fill modal-close-btn"></i>
-                                <h3>Content Writing</h3>
-                                <h4>What is content writing?</h4>
+                                <h3>Tutoring & mentorship</h3>
+                               
                                 <p> 
-                                    Content writing is the creation of written material for various purposes, primarily to communicate information or messages to a specific audience. Content writers produce content for online and offline platforms, including websites, blogs, social media, marketing materials, and more. The goal of content writing is to engage, inform, entertain, or persuade the target audience.</p>
+                                    ‘’Tell me, and I forget, teach me, and I may remember, involve me, and I learn.’’ –Benjamin Franklin</p>
                                 <h4>What I provide</h4>
                                 <ul>
-                                    <li><i class="fa-solid fa-circle-check"></i>Social Media Content</li>
-                                    <li><i class="fa-solid fa-circle-check"></i>Web Content</li>
-                                    <li><i class="fa-solid fa-circle-check"></i>Email Marketing</li>
-                                    <li><i class="fa-solid fa-circle-check"></i>Blog Writing</li>
-                                    <li><i class="fa-solid fa-circle-check"></i>SEO Marketing</li>
+                                    <li><i class="fa-solid fa-circle-check"></i>Coding classes</li>
+                                    <li><i class="fa-solid fa-circle-check"></i>Design classes</li>
+                                    <li><i class="fa-solid fa-circle-check"></i>Orientation</li>
+                                    <li><i class="fa-solid fa-circle-check"></i>Mentorship</li>
                                 </ul>
                             </div>
                         </div>
@@ -513,6 +629,173 @@
                         </div>
                        
                     </div>
+
+                    <div class="img-card-container">
+                        <div class="img-card">
+                            <div class="overlay"> </div>
+                                <div class="info">
+                                    <h3>Multiprime</h3>
+                                    <span>Entertainment</span>
+                                </div>
+                                <img src="assets/multiprime.png" class="img-card-img" alt="">
+                        </div>
+                        <div class="portfolio-model flex-center">
+                            <div class="portfolio-model-body">
+                            <i class="ri-close-fill portfolio-close-btn"></i>
+                            <h3>Multiprime</h3>
+                            <img src="assets/multiprime2.png" alt="">
+                            <p>Multiprime is an entertainment website that deals with promotion of music, model and arts talents.</p>
+                            <img src="assets/multiprime3.png" alt="">
+                         
+                            <h3 class="modal-heading">About and my contribution to Multiprime</h3>
+                            <p>
+
+                             I work as Snr Frontend developer at this company, as well as their content writer</p> <br>
+                                
+                                <h3 class="modal-heading">Key Features</h3>
+                                <ul>
+                                    <li><i class="fa-solid fa-circle-check"></i> Mobile-Friendly Design: Ensuring a seamless user experience on various devices, including smartphones and tablets.</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Secure Payment Gateways: Offering multiple secure payment options, including credit cards, digital wallets, and more.</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Product Reviews and Ratings: Allowing customers to leave reviews and ratings for products, enhancing trust and transparency.</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Wishlists: Enabling users to save items for future purchase or to share with others.</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Personalized Recommendations: Providing tailored product suggestions based on customer preferences and browsing history.</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Order History: Allowing users to view their past orders, track shipments, and easily reorder favorite items.</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Discounts and Promotions: Offering special discounts, promotions, and coupon codes to attract and retain customers.</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Responsive Customer Support: Providing efficient customer support through live chat, email, or phone for inquiries and assistance.</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Social Media Integration: Allowing users to share their favorite products on social media platforms.</li>
+                                </ul>
+                                
+                               
+                               <p> Check out Multiprime's website </p>
+                               <a href="https://multiprime.org" target="_blank">Explore Multiprime <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                    <div class="img-card-container">
+                        <div class="img-card">
+                            <div class="overlay"> </div>
+                                <div class="info">
+                                    <h3>CodeXtreme</h3>
+                                    <span>Ed-tech</span>
+                                </div>
+                                <img src="assets/codextreme.png" class="img-card-img" alt="">
+                        </div>
+                        <div class="portfolio-model flex-center">
+                            <div class="portfolio-model-body">
+                            <i class="ri-close-fill portfolio-close-btn"></i>
+                            <h3>CodeXtreme</h3>
+                            <img src="assets/codextreme2.png" alt="">
+                            <p>CodeXtreme is a seasonal 4 days Hackathon that brings together like-minded individuals from all walks of tech to solve problems, network with local and international tech experts and companies, win prizes, and change lives with their tech solutions.</p>
+                            <img src="assets/codextreme3.png" alt="">
+                         
+                            <h3 class="modal-heading">About and my contribution to CodeXtreme</h3>
+                            <p>
+
+                             I double roled in this project acting as one of the frontend engineers as well as their brand manager</p> <br>
+                                
+                                <h3 class="modal-heading">Key Features</h3>
+                                <ul>
+                                    <li><i class="fa-solid fa-circle-check"></i> Mobile-Friendly Design: Ensuring a seamless shopping experience on various devices, including smartphones and tablets.</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Secure Payment Gateways: Offering multiple secure payment options, including credit cards, digital wallets, and more.</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Product Reviews and Ratings: Allowing customers to leave reviews and ratings for products, enhancing trust and transparency.</li>
+                                    <li><i class="fa-solid fa-circle-check"></i>Events and Hackathons</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Responsive Customer Support: Providing efficient customer support through live chat, email, or phone for inquiries and assistance.</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Social Media Integration: Allowing users to share their favorite products on social media platforms.</li>
+                                </ul>
+                                
+                               
+                               <p> CodeXtreme by infitnitloop is still under development </p>
+                               <a href="https://codextremeex.netlify.app/" target="_blank">Explore CodeXtreme <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                    <div class="img-card-container">
+                        <div class="img-card">
+                            <div class="overlay"> </div>
+                                <div class="info">
+                                    <h3>VisCame</h3>
+                                    <span>Tourism</span>
+                                </div>
+                                <img src="assets/viscam.png" class="img-card-img" alt="">
+                        </div>
+                        <div class="portfolio-model flex-center">
+                            <div class="portfolio-model-body">
+                            <i class="ri-close-fill portfolio-close-btn"></i>
+                            <h3>VisCame</h3>
+                            <img src="assets/visCAM2.png" alt="">
+                            <p>Viscame is a tourism website, it's one of my passion projects aimed at promoting tourism in Cameroon</p>
+                            <img src="assets/viscam3.png" alt="">
+                         
+                            <h3 class="modal-heading">About and my contribution to VisCame</h3>
+                            <p>
+
+                           I am the frontend developer on this project </p> <br>
+                                
+                                <h3 class="modal-heading">Key Features</h3>
+                                <ul>
+                                    <li><i class="fa-solid fa-circle-check"></i> Mobile-Friendly Design: Ensuring a seamless shopping experience on various devices, including smartphones and tablets.</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Secure Payment Gateways: Offering multiple secure payment options, including credit cards, digital wallets, and more.</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Product Reviews and Ratings: Allowing customers to leave reviews and ratings for products, enhancing trust and transparency.</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Wishlists: Enabling users to save items for future purchase or to share with others.</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Personalized Recommendations: Providing tailored product suggestions based on customer preferences and browsing history.</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Order History: Allowing users to view their past orders, track shipments, and easily reorder favorite items.</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Discounts and Promotions: Offering special discounts, promotions, and coupon codes to attract and retain customers.</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Responsive Customer Support: Providing efficient customer support through live chat, email, or phone for inquiries and assistance.</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Social Media Integration: Allowing users to share their favorite products on social media platforms.</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Allows users to book flights, tours, hotels and rides to top destinstions within Cameroon.</li>
+                                </ul>
+                                
+                               
+                               <p> Viscame is under development, but get a glimpse of the frontend! We also need your support to realize this project. If you want to support, please reach out <a href="support.html">here.</a></p>
+                               <a href="https://viscam.netlify.app" target="_blank">Explore VisCame <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                    <div class="img-card-container">
+                        <div class="img-card">
+                            <div class="overlay"> </div>
+                                <div class="info">
+                                    <h3>Smartpro</h3>
+                                    <span>Waste Management</span>
+                                </div>
+                                <img src="assets/smartpro.png" class="img-card-img" alt="">
+                        </div>
+                        <div class="portfolio-model flex-center">
+                            <div class="portfolio-model-body">
+                            <i class="ri-close-fill portfolio-close-btn"></i>
+                            <h3>Smartpro</h3>
+                            <img src="assets/smartpro2.png" alt="">
+                            <p>This is a smart waste management software, it was just for a school project, but I am looking forward to realizing it.</p>
+                            <img src="assets/smartpro3.png" alt="">
+                         
+                            <h3 class="modal-heading">About and my contribution to Smartpro</h3>
+                            <p>
+
+                        I built the UI and frontend of this project </p> <br>
+                                
+                                <h3 class="modal-heading">Key Features</h3>
+                                <ul>
+                                    <li><i class="fa-solid fa-circle-check"></i> Mobile-Friendly Design: Ensuring a seamless shopping experience on various devices, including smartphones and tablets.</li>
+                                  
+                                </ul>
+                                
+                               
+                               <p>  Smartpro is still under development</p>
+                               <a href="https://smws-group10.onrender.com/templates/index.html" target="_blank">Explore Smartpro <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                            </div>
+                        </div>
+                       
+                    </div>
                     
                 </div>
             </div>
@@ -549,7 +832,7 @@
                     <div class="swiper-wrapper">
                       <div class="swiper-slide flex-center">
                         <div class="client-img">
-                            <img src="Images/urega.jpeg" alt="">
+                           <img src="Images/Rectangle 25 (1).png" alt="">
                         </div>
                         <div class="client-details">
                             <p>Simeon has been truly dedicated, and has put in all his efforts to building our brand!</p>
@@ -559,21 +842,21 @@
                       </div>
                       <div class="swiper-slide flex-center">
                         <div class="client-img">
-                            <img src="Images/urega.jpeg" alt="">
+                            <img src="Images/Rectangle 25 (1).png" alt="">
                         </div>
                         <div class="client-details">
-                            <p>Simeon has been truly dedicated, and has put in all his efforts to building our brand!</p>
-                            <h3>James K, Urega</h3>
+                            <p>Impressive, one thing is for sure, you can get the work done!</p>
+                            <h3>Cedric, CodeXtreme</h3>
                             <span>Founder</span>
                         </div>
                       </div>
                       <div class="swiper-slide flex-center">
                         <div class="client-img">
-                            <img src="Images/urega.jpeg" alt="">
+                            <img src="Images/Rectangle 25 (1).png" alt="">
                         </div>
                         <div class="client-details">
-                            <p>Simeon has been truly dedicated, and has put in all his efforts to building our brand!</p>
-                            <h3>James K, Urega</h3>
+                            <p>Simeon is indeed talented, our business is more better now with his SEO!</p>
+                            <h3>ZPrime, Multiprime</h3>
                             <span>Founder</span>
                         </div>
                       </div>
@@ -606,7 +889,7 @@
                        
                         <li >
                             <h3 class="item-title"><i class="fa-solid fa-envelope"></i> Email</h3>
-                            <span class="item-text"><a href="mailto:simeon@sidecedu.com">simeon@sidecedu.org</a></span>
+                            <span class="item-text"><a href="mailto:hello@simeonazeh.com">hello@simeonazeh.com</a></span>
                         </li>
                         <li >
                             <h3 class="item-title"><i class="fa-solid fa-location-dot"></i> Address</h3>
@@ -680,11 +963,14 @@
         </div>
     </footer>
  
+  </div>
 
 
 
     <script src="swiper-bundle.min.js"></script>
     <script src="main.js"></script>
+    <script src="index.js"></script>
     <script src="https://web3forms.com/client/script.js" async defer></script>
+  
 </body>
 </html>

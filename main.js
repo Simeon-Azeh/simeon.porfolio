@@ -171,3 +171,6 @@ const revealOptions = {
   ScrollReveal().reveal('.experience-card, .service-card, .education, .portfolio .img-card', { delay: 800, origin: 'bottom' });
   ScrollReveal().reveal('.footer .group', { ...revealOptions, origin: 'top' });
   
+
+  
+ 
