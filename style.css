@@ -2001,3 +2001,7 @@ color: var(--second-color);
         margin-bottom: 40px;
     }
   }
+
+  .bottom_top {
+    padding-top: 60px;
+  }
