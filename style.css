@@ -399,6 +399,13 @@ header.sticky .nav-bar {
     width: 90%;
     margin: auto;
     padding: 3rem;
+    opacity: 0;  /* Initially hidden */
+    transform: translateX(-100px); /* Initially off-screen to the left */
+    transition: opacity 1s ease-out, transform 1s ease-out; /* Smooth transition */
+}
+.section.fadee {
+    opacity: 1;  /* Fully visible */
+    transform: translateX(0);  /* Positioned normally */
 }
 
 .sub-section {
