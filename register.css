@@ -124,6 +124,75 @@ button:hover {
     background-color: var(--second-color);
 }
 
+.articles {
+    padding: 100px;
+}
+
+.articles h1 {
+    text-align: left;
+    color: var(--first-color);
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+.articles h2 {
+    text-align: left;
+    color: var(--first-color);
+    font-size: 1.2em;
+    margin: 20px;
+}
+.articles p {
+    line-height: 30.92px;
+    color: var(--third-color);
+    text-align: justify;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+.author {
+  display: flex;
+}
+.author .author_Img {
+    width: 10%;
+    height: 10%;
+   
+}
+.author .author_Img img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+   object-fit: contain;
+   border: 1px solid var(--card-bg-color);
+}
+.autho_details {
+    margin-top: 10px;
+    margin-left: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.autho_details p {
+    margin-top: -20px;
+    margin-left: 10px;
+    font-size: 0.8em;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.autho_details h1 {
+    margin-left: 15px;
+    font-size: 1em;
+    font-weight: 500;
+}
+.articles_img {
+    width: 60%;
+    height: 20%;
+    margin: 0 auto;
+}
+.articles_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 @media screen and (max-width: 768px) {
     .contact {
@@ -133,5 +202,24 @@ button:hover {
    
         height: 80vh;
         background-color: #fff;
+    }
+    .articles {
+        padding: 40px;
+    }
+    .articles h1 {
+        font-size: 1em;
+    }
+    .autho_details {
+        margin-top: 0px;
+        margin-left: -40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .author .author_Img {
+        width: 25%;
+        height: 25%;
+       
     }
 }
